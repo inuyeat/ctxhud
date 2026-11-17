@@ -146,6 +146,10 @@ PYTHONPATH=src python3 -I -m unittest discover -s tests
 
 의존성은 표준 라이브러리뿐이며, Python 3.9 호환성이 테스트 범위에 포함됩니다. 테스트 fixture는 직접 만든 가짜 데이터이거나, `tests/tools/anonymize.py`로 익명화한 실캡처(수치 반올림, ID·경로 치환)입니다.
 
+## 기여
+
+이슈와 풀 리퀘스트를 환영합니다. 개인 사이드 프로젝트라 답변이 늦을 수 있어요.
+
 ## Disclaimer
 
 ctxhud는 비공식 독립 프로젝트이며 Anthropic, OpenAI, Google과 제휴·후원·승인 관계가 없습니다. Claude, Claude Code, Codex, ChatGPT, Gemini, Antigravity는 각 소유자의 상표이며, 여기서는 호환 대상을 설명하는 용도로만 사용합니다. 공식 로고는 사용하지 않습니다.

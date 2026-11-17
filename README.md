@@ -146,6 +146,10 @@ PYTHONPATH=src python3 -I -m unittest discover -s tests
 
 The standard library is the only dependency, and Python 3.9 compatibility is part of the test matrix. Test fixtures are either invented data or real captures anonymized with `tests/tools/anonymize.py` (numbers rounded, IDs and paths replaced).
 
+## Contributing
+
+Issues and pull requests are welcome. This is a personal side project, so replies may be slow.
+
 ## Disclaimer
 
 ctxhud is an unofficial, independent project. It is not affiliated with, endorsed by, or sponsored by Anthropic, OpenAI, or Google. Claude, Claude Code, Codex, ChatGPT, Gemini and Antigravity are trademarks of their respective owners and are used here only to describe compatibility. The tool uses no official logos.
