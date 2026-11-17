@@ -1,0 +1,25 @@
+name: Tests and public-file scan
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+        python: ['3.9', '3.12', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Unit tests
+        run: python -I -m unittest discover -s tests
+      - name: Public-file privacy scan
+        if: ${{ !cancelled() }}
+        run: python -I tests/tools/public_scan.py

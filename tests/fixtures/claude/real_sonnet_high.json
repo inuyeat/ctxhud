@@ -1,0 +1,81 @@
+{
+  "session_id": "00000000-0000-4000-8000-000000000001",
+  "transcript_path": "/home/user/.claude/projects/-home-user-project/00000000-0000-4000-8000-000000000001.jsonl",
+  "cwd": "/home/user/project",
+  "scratchpad_dir": "/home/user/project",
+  "prompt_id": "00000000-0000-4000-8000-000000000002",
+  "effort": {
+    "level": "medium"
+  },
+  "session_name": "session",
+  "model": {
+    "id": "claude-sonnet-5-5",
+    "display_name": "Sonnet 5.5"
+  },
+  "workspace": {
+    "current_dir": "/home/user/project",
+    "project_dir": "/home/user/project",
+    "added_dirs": []
+  },
+  "version": "2.1.326",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 5.5,
+    "total_duration_ms": 17000000,
+    "total_api_duration_ms": 1100000,
+    "total_lines_added": 1600,
+    "total_lines_removed": 28
+  },
+  "context_window": {
+    "total_input_tokens": 350000,
+    "total_output_tokens": 120,
+    "context_window_size": 1000000,
+    "current_usage": {
+      "input_tokens": 2,
+      "output_tokens": 120,
+      "cache_creation_input_tokens": 1800,
+      "cache_read_input_tokens": 370000
+    },
+    "used_percentage": 35,
+    "remaining_percentage": 65
+  },
+  "exceeds_200k_tokens": true,
+  "prompt_cache": {
+    "warm": true,
+    "caching_observed": true,
+    "ttl": "1h",
+    "expires_at": 1763373844,
+    "requests": 69,
+    "misses": 1,
+    "expected_rebuilds": 0,
+    "hit_ratio": 0.96,
+    "cache_write_tokens": 630000,
+    "miss_recache_tokens": 300000,
+    "last_miss_at": 1763370000,
+    "last_miss_cause": {
+      "causes": [
+        "ttl_expired_1h"
+      ]
+    },
+    "miss_causes": {
+      "ttl_expired_1h": 1
+    },
+    "recache_tokens_if_cold": 370000
+  },
+  "fast_mode": false,
+  "thinking": {
+    "enabled": true
+  },
+  "rate_limits": {
+    "five_hour": {
+      "used_percentage": 15,
+      "resets_at": 1763387387
+    },
+    "seven_day": {
+      "used_percentage": 15,
+      "resets_at": 1763863187
+    }
+  }
+}

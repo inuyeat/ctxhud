@@ -1,0 +1,17 @@
+# private (never publish)
+research/
+backups/
+refs/
+BRIEF.md
+SPEC.md
+.claude/
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+# personal icons (brand-like, never publish)
+assets/personal/
+ROADMAP-private.md

@@ -1,0 +1,15 @@
+{
+  "session_id": "00000000-0000-4000-8000-0000000000a2",
+  "cwd": "/home/user/project",
+  "model": {"id": "example-model-1", "display_name": "Example 1"},
+  "workspace": {"current_dir": "/home/user/project", "project_dir": "/home/user/project"},
+  "context_window": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "context_window_size": 200000,
+    "current_usage": null,
+    "used_percentage": null,
+    "remaining_percentage": null
+  },
+  "exceeds_200k_tokens": false
+}

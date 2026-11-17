@@ -1,0 +1,9 @@
+{
+  "session_id": "00000000-0000-4000-8000-0000000000a3",
+  "workspace": {"current_dir": "/home/user/project", "project_dir": "/home/user/project"},
+  "model": {"id": "example-model-2"},
+  "context_window": {"total_input_tokens": 20000, "context_window_size": 1000000, "used_percentage": 2},
+  "rate_limits": {
+    "seven_day": {"used_percentage": 63, "resets_at": 1763900000}
+  }
+}

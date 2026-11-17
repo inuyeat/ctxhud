@@ -1,0 +1,29 @@
+{
+  "session_id": "00000000-0000-4000-8000-0000000000a1",
+  "transcript_path": "/home/user/.claude/projects/-home-user-project/00000000-0000-4000-8000-0000000000a1.jsonl",
+  "cwd": "/home/user/project",
+  "session_name": "example session",
+  "model": {"id": "example-model-1", "display_name": "Example 1"},
+  "effort": {"level": "high"},
+  "workspace": {"current_dir": "/home/user/project", "project_dir": "/home/user/project", "added_dirs": []},
+  "version": "0.0.0-fixture",
+  "output_style": {"name": "default"},
+  "cost": {"total_cost_usd": 1.25, "total_duration_ms": 600000, "total_api_duration_ms": 90000,
+           "total_lines_added": 10, "total_lines_removed": 2},
+  "context_window": {
+    "total_input_tokens": 100000,
+    "total_output_tokens": 500,
+    "context_window_size": 200000,
+    "current_usage": {"input_tokens": 10, "output_tokens": 500,
+                      "cache_creation_input_tokens": 4990, "cache_read_input_tokens": 95000},
+    "used_percentage": 50,
+    "remaining_percentage": 50
+  },
+  "exceeds_200k_tokens": false,
+  "fast_mode": false,
+  "thinking": {"enabled": true},
+  "rate_limits": {
+    "five_hour": {"used_percentage": 41, "resets_at": 1763380800},
+    "seven_day": {"used_percentage": 18, "resets_at": 1763900000}
+  }
+}

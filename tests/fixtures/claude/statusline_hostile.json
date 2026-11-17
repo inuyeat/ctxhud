@@ -1,0 +1,10 @@
+{
+  "session_id": "../../00000000-0000-4000-8000-0000000000a4",
+  "cwd": "/home/user/project\u001b]0;pwned\u0007",
+  "model": {"id": "example-model-3", "display_name": "\u001b[31mRed\u001b[0m\nModel"},
+  "context_window": {"total_input_tokens": -5, "context_window_size": 0, "used_percentage": 250},
+  "rate_limits": {
+    "five_hour": {"used_percentage": true, "resets_at": "soon"},
+    "seven_day": {"used_percentage": -3, "resets_at": 1763900000}
+  }
+}
